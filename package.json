@@ -1,0 +1,55 @@
+{
+  "name": "travel-planner-app",
+  "version": "1.0.0",
+  "description": "A web application to help users plan their travel by providing options for flights, hotels, and activities.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "travel",
+    "planner",
+    "vacation",
+    "trip"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.7",
+    "axios": "^1.9.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.30.1",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__generator": "^7.27.0",
+    "@types/babel__template": "^7.4.4",
+    "@types/babel__traverse": "^7.20.7",
+    "@types/graceful-fs": "^4.1.9",
+    "@types/json-schema": "^7.0.15",
+    "@types/normalize-package-data": "^2.4.4",
+    "@types/parse-json": "^7.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/stack-utils": "^2.0.3",
+    "@types/uglify-js": "^3.17.5",
+    "typescript": "^4.1.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
